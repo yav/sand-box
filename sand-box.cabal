@@ -1,0 +1,18 @@
+name:                sand-box
+version: 0.1
+build-type: Simple
+cabal-version:       >=1.10
+
+library
+  build-depends:       base >=4.11,
+                       vector,
+                       containers,
+                       array,
+                       directory,
+                       text,
+                       bytestring,
+                       filepath,
+                       pretty,
+                       pretty-show,
+                       monadLib
+  default-language: Haskell2010
